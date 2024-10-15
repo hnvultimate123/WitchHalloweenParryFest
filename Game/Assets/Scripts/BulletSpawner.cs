@@ -1,5 +1,5 @@
 // Bullet Spawner
-
+// Credits: https://www.youtube.com/watch?v=YNJM7rWbbxY
 
 using System.Collections;
 using System.Collections.Generic;
@@ -38,7 +38,6 @@ public class BulletSpawner : MonoBehaviour
         if (spawnerType == SpawnerType.Spin) transform.eulerAngles = new Vector3(0f, 0f, transform.eulerAngles.z + 1f);
         if (timer >= firingRate)
         {
-            Debug.Log("HELLOOOOOOOo");
             Fire();
             timer = 0;
         }

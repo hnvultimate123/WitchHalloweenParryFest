@@ -1,3 +1,6 @@
+// player movement
+// credits: https://www.youtube.com/watch?time_continue=126&v=TfjL56tDAOc&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2F&source_ve_path=MjM4NTE
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
