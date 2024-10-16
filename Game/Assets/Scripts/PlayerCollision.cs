@@ -23,10 +23,12 @@ public class PlayerCollision : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         //Ouput the Collision to the console
-        Debug.Log("Collision : " + collision.gameObject.name);
-        PauseGame();
-        button.SetActive(true);
-    }
+        if(collision.gameObject.tag == "Bullet") {
+            Debug.Log("Collision : " + collision.gameObject.name);
+            PauseGame();
+            button.SetActive(true);
+        }
+    } 
 
     void PauseGame()
     {
