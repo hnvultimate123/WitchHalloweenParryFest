@@ -1087,6 +1087,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843936345387847718, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 9023118489071786008, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -45.2
@@ -1127,7 +1135,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8716956449591056780, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
