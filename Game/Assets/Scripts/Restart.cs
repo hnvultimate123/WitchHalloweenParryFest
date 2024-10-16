@@ -18,6 +18,7 @@ public class Restart : MonoBehaviour
     }
     public void Reset()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         print("button is working!");
     }
