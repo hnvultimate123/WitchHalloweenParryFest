@@ -16,6 +16,7 @@ public class PlayerCollision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Application.targetFrameRate = 120;
         button.SetActive(false);
         m_Rigidbody = GetComponent<Rigidbody2D>();
         if (audioSource == null)
