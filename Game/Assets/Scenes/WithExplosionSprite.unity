@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
-  bulletLife: 10
+  bulletLife: 50
   speed: 15
   spawnerType: 1
   firingRate: 0.1
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
-  bulletLife: 10
+  bulletLife: 50
   speed: 10
   spawnerType: 1
   firingRate: 0.013
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
-  bulletLife: 20
+  bulletLife: 50
   speed: 5
   spawnerType: 1
   firingRate: 0.1
@@ -1614,7 +1614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
-  bulletLife: 10
+  bulletLife: 50
   speed: 25
   spawnerType: 1
   firingRate: 1
