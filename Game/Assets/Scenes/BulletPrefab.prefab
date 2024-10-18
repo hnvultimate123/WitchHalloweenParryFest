@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletLife: 1
-  rotation: 0
+  rotation: 100
   speed: 1
 --- !u!1 &1843936345387847718
 GameObject:
@@ -123,7 +123,7 @@ SpriteRenderer:
   m_SortingLayerID: -335308327
   m_SortingLayer: 2
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: dc7248fba22d0cc40b7c0584c1bff899, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99656fa8563b95f4b805dd9d00674d06, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -166,9 +166,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013755107, y: 0.008023894}
+  m_Offset: {x: 0, y: 0.02}
   serializedVersion: 2
-  m_Radius: 0.054268777
+  m_Radius: 0.06426878
 --- !u!50 &8716956449591056780
 Rigidbody2D:
   serializedVersion: 4
