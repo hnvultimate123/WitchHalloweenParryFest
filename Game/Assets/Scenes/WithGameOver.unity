@@ -393,7 +393,7 @@ MonoBehaviour:
   bulletLife: 10
   speed: 10
   spawnerType: 1
-  firingRate: 0.01
+  firingRate: 0.013
 --- !u!4 &524316956
 Transform:
   m_ObjectHideFlags: 0
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
-  bulletLife: 10
+  bulletLife: 20
   speed: 5
   spawnerType: 1
   firingRate: 0.1
