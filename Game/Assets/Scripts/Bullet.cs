@@ -31,6 +31,7 @@ public class Bullet : MonoBehaviour
         if (timer > bulletLife) Destroy(this.gameObject);
         timer += Time.deltaTime;
         transform.position = Movement(timer);
+        transform.RotateAround(transform.position, Vector3.up, 20 * Time.deltaTime);
     }
 
 
