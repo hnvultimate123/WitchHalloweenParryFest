@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+using UnityEngine;
+
 public class PlayerCollision : MonoBehaviour
 {
     Rigidbody2D m_Rigidbody;
     public GameObject button;
     public AudioSource audioSource;
     public AudioClip collisionSound;
+    public SpriteRenderer spriteRenderer;
+    public Sprite newSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +23,13 @@ public class PlayerCollision : MonoBehaviour
         {
             audioSource = GetComponent<AudioSource>();
         }
+        
             
+    }
+    
+    void ChangeSprite()
+    {
+        spriteRenderer.sprite = newSprite;
     }
 
     // Update is called once per frame
@@ -36,6 +47,7 @@ public class PlayerCollision : MonoBehaviour
             {
                 audioSource.PlayOneShot(collisionSound);
             }
+            ChangeSprite();
             Debug.Log("Collision : " + collision.gameObject.name);
             PauseGame();
             button.SetActive(true);
