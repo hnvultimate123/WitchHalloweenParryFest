@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-using UnityEngine;
-
 public class PlayerCollision : MonoBehaviour
 {
     Rigidbody2D m_Rigidbody;
@@ -13,6 +11,7 @@ public class PlayerCollision : MonoBehaviour
     public AudioClip collisionSound;
     public SpriteRenderer spriteRenderer;
     public Sprite newSprite;
+    public BGM bgm;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +41,10 @@ public class PlayerCollision : MonoBehaviour
     {
         //Ouput the Collision to the console
         if(collision.gameObject.tag == "Bullet") {
-            
+            if (bgm != null)
+            {
+                bgm.StopMusic();
+            }
             if (audioSource != null && collisionSound != null)
             {
                 audioSource.PlayOneShot(collisionSound);
