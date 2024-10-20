@@ -8,6 +8,6 @@ public class PlayButton : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync("withGameOver");
+        SceneManager.LoadSceneAsync("WithExplosionSprite");
     }
 }

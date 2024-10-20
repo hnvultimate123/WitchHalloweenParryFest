@@ -1869,6 +1869,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1342336301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
+  m_PrefabInstance: {fileID: 905694507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1415102287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2040,7 +2045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f23e73f8541a9745afa1ce9c0b155b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 451491863730353020, guid: b627db606d3dcd04fbf4f458bf6e4ce8, type: 3}
+  bullet: {fileID: 1342336301}
   bulletLife: 50
   speed: 25
   spawnerType: 1
