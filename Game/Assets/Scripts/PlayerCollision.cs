@@ -6,7 +6,8 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     Rigidbody2D m_Rigidbody;
-    public GameObject button;
+    public GameObject button1;
+    public GameObject button2;
     public AudioSource audioSource;
     public AudioClip collisionSound;
     public SpriteRenderer spriteRenderer;
@@ -17,7 +18,8 @@ public class PlayerCollision : MonoBehaviour
     void Start()
     {
         Application.targetFrameRate = 120;
-        button.SetActive(false);
+        button1.SetActive(false);
+        button2.SetActive(false);
         m_Rigidbody = GetComponent<Rigidbody2D>();
         if (audioSource == null)
         {
@@ -53,7 +55,8 @@ public class PlayerCollision : MonoBehaviour
             ChangeSprite();
             Debug.Log("Collision : " + collision.gameObject.name);
             PauseGame();
-            button.SetActive(true);
+            button1.SetActive(true);
+            button2.SetActive(true);
         }
     } 
 
