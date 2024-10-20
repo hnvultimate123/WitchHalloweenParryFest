@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour
 {
+    [SerializeField]
+    private SceneController _sceneController;
+
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync("WithExplosionSprite");
+        _sceneController.LoadScene("WithExplosionSprite");
     }
 }
